@@ -2,28 +2,21 @@ import React from 'react'
 import datas from "./datas.js"
 
 function Header(){
-    console.log(datas[0])
-    const data=datas[0]
 
     return(
-        <div className=' flex flex-col items-center'>
-            <img src="https://marketplace.canva.com/EAEo2Tqgahw/1/0/1600w/canva-gold-minimalist-jewelry-new-arrival-landscape-banner-ommDXeEMVKo.jpg" alt="" />
-            <button class=' cursor-pointer p-2 border-1 border-b-1 border-x-1 w-35 relative bottom-30 font-serif rounded-3xl bg-gray-50 hover:bg-fuchsia-50 ...' >Shop now ⤤ </button>
-            <h1 className=' -mt-5 text-2xl border-b font-bold'> Features Products </h1>
-           <div className=' p-5 flex justify-evenly flex-wrap gap-4 '>{datas.map((data)=>
-                 
-                <div className='h-50 w-50 shadow shadow-gray-400 p-1 flex items-center flex-col justify-between'>
-                <img className='h-30 w-30 object-fill ' src={data.image} alt=""/>
+        <div className='flex flex-col items-center'>
+            <img className=' h-5 flex absolute top-79 left-87' src='https://pngimg.com/d/diamond_PNG6682.png'></img>
+           <p className='flex absolute text-zinc-400 font-serif top-72 left-15'> As human beings, we're very materialistic and have all this stuff -<br></br> furs and cars and diamonds and money.</p>
+            <p className=' flex absolute text-zinc-100  top-85 left-15 font-serif text-5xl '>You deserve the most unique jewellery</p>
             
-                <div>
-                <p className=' text-sm font-serif self-start '> {data.title}</p>
-                <p className=' font-bold font-sans self-start'> {data.price}</p>
-                </div>
-            </div>
+            <img className=' w-[100vw]' src="https://47jewelry.com/cdn/shop/files/slider1_1_1000x.jpg?v=1652710410" alt="" />
+            
+            <button class=' hover:scale-105 duration-300 cursor-pointer p-2 border-1 border-b-1 border-x-1 w-35 relative bottom-40 right-60 font-serif rounded-3xl bg-gray-50 hover:bg-gray-300 ...' >Shop now ⤤ </button>
+        </div>
 
-            )}
-        </div>
-        </div>
     );
 }
+        <div>
+             <img src=''></img>
+</div>
 export default Header;

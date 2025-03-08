@@ -1,5 +1,6 @@
 import Header from "./header"
 import Navbar from "./navbar"
+import Card from "./card"
 
 
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Navbar/>
     <Header/>
+    <Card/>
     </>
   )
 }
