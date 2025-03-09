@@ -2,7 +2,8 @@ import React from 'react'
 
 function Navbar() {
     return (
-    <nav className=' sticky z-40 top-0 bg-white flex items-center justify-between px-3 h-16'>
+        
+    <nav className='sticky z-40 top-0 bg-white flex items-center justify-between px-3 h-16'>
         <ul className='flex gap-5  cursor-pointer'>
             <li >Rings</li>
             <li >Earrings</li>
@@ -27,6 +28,7 @@ function Navbar() {
      
      </div>
      </nav>
+
     );
 }
 export default Navbar;

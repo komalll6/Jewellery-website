@@ -1,5 +1,5 @@
 import React from 'react'
-import datas from "./datas.js"
+// import datas from "./datas.js"
 
 function Header(){
 
@@ -11,12 +11,9 @@ function Header(){
             
             <img className=' w-[100vw]' src="https://47jewelry.com/cdn/shop/files/slider1_1_1000x.jpg?v=1652710410" alt="" />
             
-            <button class=' hover:scale-105 duration-300 cursor-pointer p-2 border-1 border-b-1 border-x-1 w-35 relative bottom-40 right-60 font-serif rounded-3xl bg-gray-50 hover:bg-gray-300 ...' >Shop now ⤤ </button>
+            <button class=' hover:scale-105 duration-500  cursor-pointer p-2 border-1 border-b-1 border-x-1 w-35 relative bottom-40 right-60 font-serif rounded-3xl bg-gray-50 hover:bg-gray-300 ...' >Shop now ⤤ </button>
         </div>
-
     );
 }
-        <div>
-             <img src=''></img>
-</div>
+        
 export default Header;
