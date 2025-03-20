@@ -3,6 +3,7 @@ import datas from "../utils/datas.js"
 
 function Category(){
     return(
+        <div className='pt-8'>
         <div className=' flex  relative top-0 bg-gray-800'>
             <h className=' flex top-5 left-20 relative text-1xl text-amber-50 font-light '>HIGEST STANDARDS</h>
             <p className='  m-10 font-serif text-amber-50 flex text-3xl relative right-25'><br></br>Good products can be sold by honest advertising.<br></br>If you don't think the product is good,<br></br>you have no business to be advertising it.</p>
@@ -12,8 +13,9 @@ function Category(){
             
             <img className='h-13 relative left-10 top-13' src='https://cdn-icons-png.flaticon.com/128/744/744480.png'/>
             <h3 className=' text-white relative font-light top-26 right-11'>European Quality</h3>
-            
         </div>
+        </div>
+
     );
 }
 export default Category;

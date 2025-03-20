@@ -85,7 +85,7 @@ const Datas=[
     },
     {
       "id": 8,
-      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel",
       "price": `₹3,79,509`,
       "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
       "category": "jewelery",
